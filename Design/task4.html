@@ -8,26 +8,26 @@
 <body>
     <table align="center" cellspacing="25px" >
         <caption>Registrartion Form</caption>
-        <form action="server" method="post">
+        <form action="server" >
             <tr>
                 <td>
-              <label >First Name</label>
+              <label for="id1">First Name</label>
               
-              <input type="text"></input> 
+              <input type="text" name="nm1" id="id1"></input> 
                            </td>
                            <tr>
                            <td>
-                            <label >Last Name</label>
+                            <label for="id2" >Last Name</label>
                             
-                            <input type="text"></input> 
+                            <input type="text" name="nm2" id="id2"></input> 
                                          </td>
                                          </tr>
             </tr>
             <tr>
                 <td>
-              <label >Screen name</label>
+              <label for="id3" >Screen name</label>
               
-              <input type="text"></input> 
+              <input type="text" name="nm3" id="id3"></input> 
                            </td>
                            <td>
                             
@@ -35,26 +35,26 @@
             
             <tr>
             <td>
-                <label > Date of birth</label>
-                <select>
+                <label for="id4"> Date of birth</label>
+                <select id="id4 "name="nm5">
                 
-                    <option value="month">Month</option>
-                    <option  value="March">March</option>
-                    <option  value="jan">jan</option>
-                    <option  value="may">may</option>
+                    <option value="day" >Month</option>
+                    <option  value="March" >March</option>
+                    <option  value="jan" >jan</option>
+                    <option  value="may" >may</option>
                              </td>
                             </select>
                              <td>
-                                <select>
+                                <select id="id4" name="nm6">
                                 <option value="day">day</option>
-                                <option  value="1">1</option>
-                                <option  value="2">2</option>
-                                <option  value="3">3</option>
+                                <option  value="1" >1</option>
+                                <option  value="2" >2</option>
+                                <option  value="3" >3</option>
                              </td>
                             </select>
                     
                         <td>
-                            <select>
+                            <select id="id4" name="nm6">
                            <option value="Year">Year</option>
                            <option  value="2000">2000</option>
                            <option  value="2002">2002</option>
@@ -64,31 +64,32 @@
                             </tr>
                              <tr>
                                 <td>
-                                    <label >Email</label>
+                                    <label for="id5" >Email</label>
                                     
-                                    <input type="email"></input> 
+                                    <input type="email" name="nm7" id="id5"></input> 
                                                  </td>
                                                  </tr>
                                                  <tr>
                                                  <td>
-                                                    <label >Phone Number</label>
+                                                    <label for="id6">Phone Number</label>
                                                     
-                                                    <input type="number"> </input>
+                                                    <input type="number" name="nm8" id="id6"> </input>
                                                                  </td>
                                                  </tr>
                                                 <tr>
                                                     <td>
-                                                    <label >Password</label>
-                                                    <input type="password"></input>
+                                                    <label for="id7" >Password</label>
+                                                    <input type="password" name="nm9" id="id7"></input>
                                                     </td>
                                                     <tr>
                                                         <td>
-                                                        <label > ConfirmPassword</label>
-                                                        <input type="password"></input>
+                                                        <label for="id8" > ConfirmPassword</label>
+                                                        <input type="password" id="id8" name="nm10"></input>
                                                         </td>
                                                 </tr>
                                                 <tr><td>
-                                                    <input type="checkbox" checked>
+                                                    <input type="checkbox" value="Agree" name="check"> </input>
+                                                    <label for="id9" > Agree the terms and conditions</label>
                                                 </td>
                                                 </tr>
                                                 <tr>
